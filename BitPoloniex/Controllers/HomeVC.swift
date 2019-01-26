@@ -15,6 +15,7 @@ class HomeVC: UIViewController {
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var priceTextField: UITextField!
     @IBOutlet weak var userLabel: UILabel!
+    @IBOutlet weak var connectButton: UIButton!
     
     
     let service = BitPoloniexService.shared
@@ -34,6 +35,11 @@ class HomeVC: UIViewController {
         if let user : User = AppUserDefaults.getUser() {
             self.userLabel.text = "Welcome \(user.fullName ?? "")"
         }
+        
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(applicationDidBecomeActive),
+                                               name: UIApplication.didBecomeActiveNotification,
+            object: nil)
         
         tickerArray = []
         statusLabel.text = "Connecting.."
@@ -62,6 +68,7 @@ class HomeVC: UIViewController {
         service.didConnect = {
             print("connected");
             self.statusLabel.text = "Subscribing.."
+            self.connectButton.isHidden = true
             self.service.getPairsData(completionHandler: { (error, arr) in
                 if error == nil {
                     self.tickerArray = arr
@@ -77,6 +84,7 @@ class HomeVC: UIViewController {
         service.didDisconnect = { error in
             print("Disconnected: \(error?.localizedDescription ?? "")")
             self.statusLabel.text = "Disconnected."
+            self.connectButton.isHidden = false
         }
         
         service.didReceiveData = { data in
@@ -103,6 +111,19 @@ class HomeVC: UIViewController {
         self.simpleMode = (sender as! UISegmentedControl).selectedSegmentIndex == 1
         self.tableView.reloadData()
        
+    }
+    
+    @IBAction func connectAction(_ sender: Any) {
+       self.connect()
+    }
+    
+    @objc func applicationDidBecomeActive() {
+        self.connect()
+    }
+    
+    func connect() {
+        self.statusLabel.text = "Connecting."
+        service.connect()
     }
 }
 
