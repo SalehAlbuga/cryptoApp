@@ -1,6 +1,6 @@
 # CryptoApp
 
-### To install it locally:
+### To Run it:
 
 -Clone the repo
 
