@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313C6994FD5B57F189F49AC2 /* Pods_BitPoloniexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4350B13EB1C5CBE0E9D3A566 /* Pods_BitPoloniexTests.framework */; };
 		4CEDB45221FB2A57007D2006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB45121FB2A57007D2006 /* AppDelegate.swift */; };
-		4CEDB45421FB2A57007D2006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB45321FB2A57007D2006 /* ViewController.swift */; };
 		4CEDB45721FB2A57007D2006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDB45521FB2A57007D2006 /* Main.storyboard */; };
 		4CEDB45921FB2A58007D2006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDB45821FB2A58007D2006 /* Assets.xcassets */; };
 		4CEDB45C21FB2A58007D2006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDB45A21FB2A58007D2006 /* LaunchScreen.storyboard */; };
 		4CEDB46721FB2A58007D2006 /* BitPoloniexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB46621FB2A58007D2006 /* BitPoloniexTests.swift */; };
 		4CEDB47221FB2A58007D2006 /* BitPoloniexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB47121FB2A58007D2006 /* BitPoloniexUITests.swift */; };
+		4CEDB48321FB88E9007D2006 /* BitPoloniexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB48221FB88E9007D2006 /* BitPoloniexService.swift */; };
+		4CEDB48621FB8B1F007D2006 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB48521FB8B1F007D2006 /* Ticker.swift */; };
+		4CEDB48821FB8CA6007D2006 /* AppDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB48721FB8CA6007D2006 /* AppDefinitions.swift */; };
+		4CEDB48D21FBA1A3007D2006 /* TickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB48C21FBA1A3007D2006 /* TickerCell.swift */; };
+		4CEDB49021FBA4F5007D2006 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB48F21FBA4F5007D2006 /* HomeVC.swift */; };
+		4CEDB49221FBB636007D2006 /* pairs.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDB49121FBB636007D2006 /* pairs.json */; };
+		4CEDB49421FCA590007D2006 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB49321FCA590007D2006 /* LoginVC.swift */; };
+		4CEDB49621FCA63D007D2006 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB49521FCA63D007D2006 /* User.swift */; };
+		4CEDB49921FCA771007D2006 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB49821FCA771007D2006 /* AppUserDefaults.swift */; };
+		4CEDB49B21FCACA0007D2006 /* RegisterationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDB49A21FCACA0007D2006 /* RegisterationVC.swift */; };
+		9C291A78FC5EC60A85DF0B40 /* Pods_BitPoloniexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2079D8236016C1930D6CF647 /* Pods_BitPoloniexUITests.framework */; };
+		D0D54E2E89E06524892231C7 /* Pods_BitPoloniex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1723D443FF39DCFB36F64B /* Pods_BitPoloniex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1723D443FF39DCFB36F64B /* Pods_BitPoloniex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPoloniex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6582FC1D7F53A4EE0EB945 /* Pods-BitPoloniex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoloniex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoloniex/Pods-BitPoloniex.debug.xcconfig"; sourceTree = "<group>"; };
+		2079D8236016C1930D6CF647 /* Pods_BitPoloniexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPoloniexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4350B13EB1C5CBE0E9D3A566 /* Pods_BitPoloniexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPoloniexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEDB44E21FB2A57007D2006 /* BitPoloniex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPoloniex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEDB45121FB2A57007D2006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CEDB45321FB2A57007D2006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CEDB45621FB2A57007D2006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEDB45821FB2A58007D2006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEDB45B21FB2A58007D2006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		4CEDB46D21FB2A58007D2006 /* BitPoloniexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitPoloniexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEDB47121FB2A58007D2006 /* BitPoloniexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitPoloniexUITests.swift; sourceTree = "<group>"; };
 		4CEDB47321FB2A58007D2006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEDB48221FB88E9007D2006 /* BitPoloniexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitPoloniexService.swift; sourceTree = "<group>"; };
+		4CEDB48521FB8B1F007D2006 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		4CEDB48721FB8CA6007D2006 /* AppDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefinitions.swift; sourceTree = "<group>"; };
+		4CEDB48C21FBA1A3007D2006 /* TickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerCell.swift; sourceTree = "<group>"; };
+		4CEDB48F21FBA4F5007D2006 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4CEDB49121FBB636007D2006 /* pairs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pairs.json; sourceTree = "<group>"; };
+		4CEDB49321FCA590007D2006 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4CEDB49521FCA63D007D2006 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4CEDB49821FCA771007D2006 /* AppUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		4CEDB49A21FCACA0007D2006 /* RegisterationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationVC.swift; sourceTree = "<group>"; };
+		6B489CD93833F48A636166E0 /* Pods-BitPoloniexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoloniexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoloniexTests/Pods-BitPoloniexTests.release.xcconfig"; sourceTree = "<group>"; };
+		70F6DEB2C4F1878E5C729696 /* Pods-BitPoloniexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoloniexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoloniexTests/Pods-BitPoloniexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E69384DF8E0DF4DC2A637547 /* Pods-BitPoloniexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoloniexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoloniexUITests/Pods-BitPoloniexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE699858F6659BF46D76AD5 /* Pods-BitPoloniex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoloniex.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoloniex/Pods-BitPoloniex.release.xcconfig"; sourceTree = "<group>"; };
+		FF8359B8F580B66AC9610BFD /* Pods-BitPoloniexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoloniexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoloniexUITests/Pods-BitPoloniexUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D54E2E89E06524892231C7 /* Pods_BitPoloniex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313C6994FD5B57F189F49AC2 /* Pods_BitPoloniexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C291A78FC5EC60A85DF0B40 /* Pods_BitPoloniexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				4CEDB46521FB2A58007D2006 /* BitPoloniexTests */,
 				4CEDB47021FB2A58007D2006 /* BitPoloniexUITests */,
 				4CEDB44F21FB2A57007D2006 /* Products */,
+				7A374BE25CE77A8299F75DBD /* Pods */,
+				B9BE43E1096DCB9A5069D54F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +132,18 @@
 		4CEDB45021FB2A57007D2006 /* BitPoloniex */ = {
 			isa = PBXGroup;
 			children = (
+				4CEDB49721FCA755007D2006 /* Util */,
+				4CEDB48E21FBA4D7007D2006 /* Controllers */,
+				4CEDB48921FBA0EA007D2006 /* Views */,
+				4CEDB48421FB8AEE007D2006 /* Models */,
+				4CEDB48121FB88BD007D2006 /* Service */,
 				4CEDB45121FB2A57007D2006 /* AppDelegate.swift */,
-				4CEDB45321FB2A57007D2006 /* ViewController.swift */,
 				4CEDB45521FB2A57007D2006 /* Main.storyboard */,
 				4CEDB45821FB2A58007D2006 /* Assets.xcassets */,
 				4CEDB45A21FB2A58007D2006 /* LaunchScreen.storyboard */,
 				4CEDB45D21FB2A58007D2006 /* Info.plist */,
+				4CEDB48721FB8CA6007D2006 /* AppDefinitions.swift */,
+				4CEDB49121FBB636007D2006 /* pairs.json */,
 			);
 			path = BitPoloniex;
 			sourceTree = "<group>";
@@ -125,6 +166,72 @@
 			path = BitPoloniexUITests;
 			sourceTree = "<group>";
 		};
+		4CEDB48121FB88BD007D2006 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDB48221FB88E9007D2006 /* BitPoloniexService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4CEDB48421FB8AEE007D2006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDB48521FB8B1F007D2006 /* Ticker.swift */,
+				4CEDB49521FCA63D007D2006 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CEDB48921FBA0EA007D2006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDB48C21FBA1A3007D2006 /* TickerCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CEDB48E21FBA4D7007D2006 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDB49321FCA590007D2006 /* LoginVC.swift */,
+				4CEDB48F21FBA4F5007D2006 /* HomeVC.swift */,
+				4CEDB49A21FCACA0007D2006 /* RegisterationVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CEDB49721FCA755007D2006 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDB49821FCA771007D2006 /* AppUserDefaults.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7A374BE25CE77A8299F75DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6582FC1D7F53A4EE0EB945 /* Pods-BitPoloniex.debug.xcconfig */,
+				FBE699858F6659BF46D76AD5 /* Pods-BitPoloniex.release.xcconfig */,
+				70F6DEB2C4F1878E5C729696 /* Pods-BitPoloniexTests.debug.xcconfig */,
+				6B489CD93833F48A636166E0 /* Pods-BitPoloniexTests.release.xcconfig */,
+				E69384DF8E0DF4DC2A637547 /* Pods-BitPoloniexUITests.debug.xcconfig */,
+				FF8359B8F580B66AC9610BFD /* Pods-BitPoloniexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9BE43E1096DCB9A5069D54F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A1723D443FF39DCFB36F64B /* Pods_BitPoloniex.framework */,
+				4350B13EB1C5CBE0E9D3A566 /* Pods_BitPoloniexTests.framework */,
+				2079D8236016C1930D6CF647 /* Pods_BitPoloniexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEDB47621FB2A58007D2006 /* Build configuration list for PBXNativeTarget "BitPoloniex" */;
 			buildPhases = (
+				9D7558167DD4D9F22F2537BA /* [CP] Check Pods Manifest.lock */,
 				4CEDB44A21FB2A57007D2006 /* Sources */,
 				4CEDB44B21FB2A57007D2006 /* Frameworks */,
 				4CEDB44C21FB2A57007D2006 /* Resources */,
+				A670C864BD6984AD24D447C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEDB47921FB2A58007D2006 /* Build configuration list for PBXNativeTarget "BitPoloniexTests" */;
 			buildPhases = (
+				0451CFF2F5CDE180C8D24756 /* [CP] Check Pods Manifest.lock */,
 				4CEDB45E21FB2A58007D2006 /* Sources */,
 				4CEDB45F21FB2A58007D2006 /* Frameworks */,
 				4CEDB46021FB2A58007D2006 /* Resources */,
@@ -167,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEDB47C21FB2A58007D2006 /* Build configuration list for PBXNativeTarget "BitPoloniexUITests" */;
 			buildPhases = (
+				A9FB0C347315C528616719F7 /* [CP] Check Pods Manifest.lock */,
 				4CEDB46921FB2A58007D2006 /* Sources */,
 				4CEDB46A21FB2A58007D2006 /* Frameworks */,
 				4CEDB46B21FB2A58007D2006 /* Resources */,
@@ -230,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEDB45C21FB2A58007D2006 /* LaunchScreen.storyboard in Resources */,
+				4CEDB49221FBB636007D2006 /* pairs.json in Resources */,
 				4CEDB45921FB2A58007D2006 /* Assets.xcassets in Resources */,
 				4CEDB45721FB2A57007D2006 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +363,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0451CFF2F5CDE180C8D24756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitPoloniexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7558167DD4D9F22F2537BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitPoloniex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A670C864BD6984AD24D447C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitPoloniex/Pods-BitPoloniex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitPoloniex/Pods-BitPoloniex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9FB0C347315C528616719F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitPoloniexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CEDB44A21FB2A57007D2006 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEDB45421FB2A57007D2006 /* ViewController.swift in Sources */,
+				4CEDB49021FBA4F5007D2006 /* HomeVC.swift in Sources */,
+				4CEDB49421FCA590007D2006 /* LoginVC.swift in Sources */,
+				4CEDB48621FB8B1F007D2006 /* Ticker.swift in Sources */,
+				4CEDB48321FB88E9007D2006 /* BitPoloniexService.swift in Sources */,
+				4CEDB49621FCA63D007D2006 /* User.swift in Sources */,
+				4CEDB48821FB8CA6007D2006 /* AppDefinitions.swift in Sources */,
+				4CEDB48D21FBA1A3007D2006 /* TickerCell.swift in Sources */,
+				4CEDB49921FCA771007D2006 /* AppUserDefaults.swift in Sources */,
+				4CEDB49B21FCACA0007D2006 /* RegisterationVC.swift in Sources */,
 				4CEDB45221FB2A57007D2006 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,9 +647,11 @@
 		};
 		4CEDB47721FB2A58007D2006 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6582FC1D7F53A4EE0EB945 /* Pods-BitPoloniex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF7G8HWRL8;
 				INFOPLIST_FILE = BitPoloniex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +666,11 @@
 		};
 		4CEDB47821FB2A58007D2006 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE699858F6659BF46D76AD5 /* Pods-BitPoloniex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF7G8HWRL8;
 				INFOPLIST_FILE = BitPoloniex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +685,7 @@
 		};
 		4CEDB47A21FB2A58007D2006 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F6DEB2C4F1878E5C729696 /* Pods-BitPoloniexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +706,7 @@
 		};
 		4CEDB47B21FB2A58007D2006 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B489CD93833F48A636166E0 /* Pods-BitPoloniexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +727,7 @@
 		};
 		4CEDB47D21FB2A58007D2006 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69384DF8E0DF4DC2A637547 /* Pods-BitPoloniexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +747,7 @@
 		};
 		4CEDB47E21FB2A58007D2006 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8359B8F580B66AC9610BFD /* Pods-BitPoloniexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
